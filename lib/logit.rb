@@ -22,6 +22,10 @@ module Logit
       begin_time = Time.now
       prob_ntj = compute_logit coef, data
       end_time = Time.now
+
+      puts 'n,t,j,p'
+      prob_ntj.map { |key, prob| key + [prob] }
+      .each { |r| puts r.join(',') }
       $stderr.puts "Running time is #{end_time - begin_time}, data load time is #{begin_time - begin_load_time}"
     end
 

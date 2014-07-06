@@ -1,0 +1,15 @@
+See output in output.csv.
+To run program,
+
+bin/logit >output.csv
+
+or
+
+bin/logit coef.csv data.csv >output.csv
+
+I am reasonably certain it's generating correct data, but
+not much time to properly check it in the timeframe of this
+test, which has already been delayed due to questions and other
+issues.
+
+Running time is 0.534252413
