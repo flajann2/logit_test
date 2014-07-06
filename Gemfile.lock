@@ -1,0 +1,10 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    smarter_csv (1.0.17)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  smarter_csv

@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+LOGIT_PATH = File.expand_path '..', File.dirname(__FILE__)
+
+%w{ lib }.each do |dir|
+  $:.unshift File.join([LOGIT_PATH, dir])
+end
+
+require 'logit'
+
+Logit::process *ARGV
