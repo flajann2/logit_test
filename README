@@ -7,9 +7,7 @@ or
 
 bin/logit coef.csv data.csv >output.csv
 
-I am reasonably certain it's generating correct data, but
-not much time to properly check it in the timeframe of this
-test, which has already been delayed due to questions and other
-issues.
-
-Running time is 0.534252413
+This is just me trying out this cool algorithm,
+initially for a test, but now in consideration
+of whether or not this can be turned into a gem
+in a meaningful way.
